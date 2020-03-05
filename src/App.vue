@@ -6,20 +6,19 @@
 
 <script>
 
+  export default {
+    name: 'App',
+    data() {
+      return {
+        quotes: [
+          'Just a Quote to see something'
+        ],
+        maxQuotes: 10,
 
-export default {
-  name: 'App',
-  data() {
-    return {
-      quotes: [
-        'Just a Quote to see something'
-      ],
-      maxQuotes: 10,
-
+      }
     }
-  }
 
-}
+  }
 </script>
 
 <style>
